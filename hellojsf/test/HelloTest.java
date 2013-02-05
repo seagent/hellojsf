@@ -14,7 +14,7 @@ public class HelloTest {
 		
 
 		// Check that a condition is true
-		assertTrue(a < b);
+		assertTrue(b < c);
 
 		// Check that a condition is false
 		assertFalse(a > b);
