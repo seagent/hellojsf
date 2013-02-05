@@ -6,5 +6,9 @@ jdk:
 branches:
   only:
     - master
+notifications:
+  email:
+    - bahtiyar.erden@gmail.com
+    - tayfunhalac@gmail.com
 
 
