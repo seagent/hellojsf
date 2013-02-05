@@ -1,5 +1,5 @@
 language: java
-script: mvn -q clean install
+script: mvn -f seagent/hellojsf/hellojsf/pom.xml -q clean install
 jdk:
   - openjdk6
   - openjdk7
