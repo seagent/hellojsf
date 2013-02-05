@@ -5,3 +5,4 @@ jdk:
   - openjdk6
 mvn install -DskipTests=true
 mvn test
+
