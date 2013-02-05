@@ -1,8 +1,6 @@
 language: java
-script: mvn -f hellojsf/pom.xml -q clean install
+script: mvn -f -x hellojsf/pom.xml -q clean install
 jdk:
-  - openjdk6
-  - openjdk7
   - oraclejdk7
 # whitelist
 branches:
