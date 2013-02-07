@@ -1,4 +1,5 @@
 language: java
+before_script: cat ~/.m2/settings.xml
 script: mvn -f hellojsf/pom.xml -q -X clean install
 jdk:
   - oraclejdk7
